@@ -1,0 +1,11 @@
+Circuit connection
+
+VCC = 5v
+GND = GND
+IN = 20(GPIO pin / 38th of pin)
+
+Relay and Motor connection
+
+-ve terminal of the 9v battery = common of Relay
+one end of DC motor wire = OPEN port of Relay
+another end of DC motor = +ve terminal of 9v battery

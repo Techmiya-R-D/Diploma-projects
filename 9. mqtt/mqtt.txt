@@ -1,0 +1,25 @@
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt-get install mosquitto mosquitto-clients
+sudo systemctl enable mosquitto.service
+Take two terminal
+1. subscribe terminal 
+run code
+mosquitto_sub -d -t "binary/updates"
+
+2. publishing terminal
+run code
+mosquitto_pub -d -t "binary/updates" -m "Hello How r u"
+
+
+192.168.0.151
+
+sudo pip install paho-mqtt
+
+
+
+
+On Subcriber side type this 
+mosquitto_sub -h your_broker_address -t temperature
+
+on publisher type run python file 

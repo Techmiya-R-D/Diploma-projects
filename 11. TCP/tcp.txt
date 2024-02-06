@@ -1,0 +1,3 @@
+sudo apt-get install telnet
+
+telnet raspberry pi ip address 12345
